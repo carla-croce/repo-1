@@ -1,0 +1,29 @@
+//nesting
+#botonera{
+    background-color: $navColor;
+    font-family: $secondaryFont;
+    padding: 5px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: gray;
+    ul{
+        display: flex;
+        margin-left: 10px;
+        li{
+            display: inline-block;
+            list-style: none;
+            margin-right: 10px;
+            a{
+                color: black;
+                font-family: $secondaryFont;
+                text-decoration: none;
+                &:hover{
+                    color: $secondaryColor;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400&display=swap");
+#botonera {
+  background-color: rgb(241, 203, 236);
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: gray;
+}
+#botonera ul {
+  display: flex;
+  margin-left: 10px;
+}
+#botonera ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 10px;
+}
+#botonera ul li a {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+#botonera ul li a:hover {
+  color: rgb(49, 47, 47);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../source/img/backgrounds/colores2.jpg);
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(49, 47, 47);
+}
+
+h1, h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  color: rgb(236, 102, 205);
+  margin-bottom: 30px;
+}
+
+.header__img--fluid {
+  width: 100%;
+}
+
+.main__section, .main__section1 {
+  width: 70%;
+  height: auto;
+  margin: 40px auto;
+  padding: 40px 30px;
+}
+
+.main__section1 {
+  width: 100%;
+}
+
+.pie {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: black;
+  margin-top: 5rem;
+  padding: 10px 50px;
+}
+
+.pie__icon--sm {
+  height: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.figure__figcaption {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.img, .img1 {
+  display: flex;
+  align-items: center;
+  justify-items: space-between;
+  height: auto;
+}
+
+.img1 {
+  height: 428px;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+/* animacion en la página de planes en h1 y en videos*/
+.scale:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: all 1s;
+  text-decoration: none;
+  list-style: none;
+}
+
+.formulario {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.bg-pink {
+  background-color: rgb(235, 163, 218);
+}
+
+/*# sourceMappingURL=main.css.map */
